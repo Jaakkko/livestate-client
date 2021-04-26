@@ -31,7 +31,7 @@ function executeCommand(
   }
 }
 
-export default function createRoute<State>(
+export function createRoute<State>(
   pathSkeleton: string,
   structure: State
 ): Route<State> {
